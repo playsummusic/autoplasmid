@@ -21,9 +21,9 @@ def design_binding_primers(insert_seq, seq_id=0, mode='pppt4', forward_only=Fals
     global_args = {
         'PRIMER_MIN_SIZE': 10,
         'PRIMER_MAX_SIZE': 36,
-        'PRIMER_OPT_TM': 61.0,
-        'PRIMER_MIN_TM': 56.0,
-        'PRIMER_MAX_TM': 65.0,
+        'PRIMER_OPT_TM': 62.0,
+        'PRIMER_MIN_TM': 58.0,
+        'PRIMER_MAX_TM': 66.0,
         'PRIMER_PRODUCT_SIZE_RANGE': [[len(insert_seq), len(insert_seq)]],
         'PRIMER_MAX_HAIRPIN_TH': 100.0,
         'PRIMER_MAX_SELF_ANY_TH': 100.0,

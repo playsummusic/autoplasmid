@@ -79,7 +79,7 @@ def insert_into_vector(
     record = SeqIO.read(vector_gb_path, "genbank")
 
     # Locus / Accession anpassen
-    locus_name = construct_name[:16] if len(construct_name) > 16 else construct_name
+    locus_name = construct_name[:25] if len(construct_name) > 25 else construct_name
     record.id = locus_name
     record.name = locus_name
     record.description = "."
